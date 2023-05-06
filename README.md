@@ -2,6 +2,9 @@
 
 Sample generator of data points (tag, timestamp, value) publishing to Kafka topic.
 
+:zap: This generator is to test message structure and connectivity. 
+It's not producing anything meaningful in terms of timeseries data, just random values! :zap: 
+
 ## App structure
 
  - sample producer (defined in `producer.py`)
